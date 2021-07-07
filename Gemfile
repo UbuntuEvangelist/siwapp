@@ -48,7 +48,7 @@ end
 gem 'web-console', '~> 2.0', group: :development
 
 group :test do
-  gem 'capybara-webkit'
+  gem 'capybara-webkit', '>= 1.11.1'
   gem 'selenium-webdriver'
   gem 'database_cleaner'
 end
@@ -86,4 +86,4 @@ gem "paranoia", "~> 2.0"
 # to allow async jobs in wisper.
 gem 'wisper-celluloid'
 ## to make http POST requests
-gem "http"
+gem "http", ">= 2.0.3"
