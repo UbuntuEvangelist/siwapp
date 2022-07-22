@@ -5,11 +5,11 @@ ruby "2.2.0"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.5', '>= 2.5.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -45,7 +45,7 @@ group :development, :test do
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
-gem 'web-console', '~> 2.0', group: :development
+gem 'web-console', '~> 2.3', '>= 2.3.0', group: :development
 
 group :test do
   gem 'capybara-webkit'
@@ -71,7 +71,7 @@ gem 'mysql2'
 gem 'pry-rails', group: :development
 gem 'puma'
 gem 'rails_12factor', group: :production
-gem "rails-settings-cached", "~> 0.4.0"
+gem "rails-settings-cached", "~> 0.4.6"
 gem 'ransack'
 gem 'sass'
 gem 'wicked_pdf'
@@ -80,7 +80,7 @@ gem 'wkhtmltopdf-binary'
 # money!
 gem 'money'
 # to prevent records from being actually deleted
-gem "paranoia", "~> 2.0"
+gem "paranoia", "~> 2.1", ">= 2.1.5"
 # to have a pub/sub mechanism
 #gem 'wisper', '2.0.0.rc1'
 # to allow async jobs in wisper.
