@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby "2.2.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '5.2.8.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,12 +56,12 @@ end
 # installed 4.0.2.2 version because an issue:
 # https://github.com/ai/autoprefixer-rails/issues/47
 gem 'active_model_serializers', '0.10.2'
-gem 'acts-as-taggable-on'  # https://github.com/mbleigh/acts-as-taggable-on
+gem 'acts-as-taggable-on'  , '>= 4.0.0' # https://github.com/mbleigh/acts-as-taggable-on
 gem 'autoprefixer-rails', '>= 5.0.0.1'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 # to add items dinamically
 gem 'cocoon', '~>1.2.6'
-gem 'deep_cloneable', '~> 2.1.1'
+gem 'deep_cloneable', '~> 2.3.2'
 gem 'factory_girl_rails'
 gem 'fastclick-rails'
 gem 'haml'
@@ -71,7 +71,7 @@ gem 'mysql2'
 gem 'pry-rails', group: :development
 gem 'puma'
 gem 'rails_12factor', group: :production
-gem "rails-settings-cached", "~> 0.4.0"
+gem "rails-settings-cached", "~> 0.4.6"
 gem 'ransack'
 gem 'sass'
 gem 'wicked_pdf'
@@ -80,7 +80,7 @@ gem 'wkhtmltopdf-binary'
 # money!
 gem 'money'
 # to prevent records from being actually deleted
-gem "paranoia", "~> 2.0"
+gem "paranoia", "~> 2.4", ">= 2.4.1"
 # to have a pub/sub mechanism
 #gem 'wisper', '2.0.0.rc1'
 # to allow async jobs in wisper.
