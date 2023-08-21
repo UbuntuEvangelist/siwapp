@@ -69,7 +69,7 @@ gem 'jquery-ui-rails'
 gem 'js-routes'
 gem 'mysql2'
 gem 'pry-rails', group: :development
-gem 'puma'
+gem 'puma', '>= 5.6.7'
 gem 'rails_12factor', group: :production
 gem "rails-settings-cached", "~> 0.4.0"
 gem 'ransack'
