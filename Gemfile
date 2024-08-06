@@ -58,7 +58,7 @@ end
 gem 'active_model_serializers', '0.10.2'
 gem 'acts-as-taggable-on'  # https://github.com/mbleigh/acts-as-taggable-on
 gem 'autoprefixer-rails', '>= 5.0.0.1'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap', '~> 5.0.0.0'
 # to add items dinamically
 gem 'cocoon', '~>1.2.6'
 gem 'deep_cloneable', '~> 2.1.1'
