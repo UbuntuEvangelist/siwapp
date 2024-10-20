@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 ruby "2.2.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '7.0.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -45,7 +45,7 @@ group :development, :test do
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
-gem 'web-console', '~> 2.0', group: :development
+gem 'web-console', '~> 3.0', '>= 3.0.0', group: :development
 
 group :test do
   gem 'capybara-webkit'
@@ -55,7 +55,7 @@ end
 
 # installed 4.0.2.2 version because an issue:
 # https://github.com/ai/autoprefixer-rails/issues/47
-gem 'active_model_serializers', '0.10.2'
+gem 'active_model_serializers', '0.10.3'
 gem 'acts-as-taggable-on'  # https://github.com/mbleigh/acts-as-taggable-on
 gem 'autoprefixer-rails', '>= 5.0.0.1'
 gem 'bootstrap', '~> 4.0.0.alpha3'
@@ -66,13 +66,13 @@ gem 'factory_girl_rails'
 gem 'fastclick-rails'
 gem 'haml'
 gem 'jquery-ui-rails'
-gem 'js-routes'
+gem 'js-routes', '>= 1.4.12'
 gem 'mysql2'
 gem 'pry-rails', group: :development
 gem 'puma'
 gem 'rails_12factor', group: :production
-gem "rails-settings-cached", "~> 0.4.0"
-gem 'ransack'
+gem "rails-settings-cached", "~> 2.8.3"
+gem 'ransack', '>= 2.3.1'
 gem 'sass'
 gem 'wicked_pdf'
 gem 'will_paginate'
